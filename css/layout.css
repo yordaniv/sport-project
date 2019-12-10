@@ -1,0 +1,214 @@
+/* Adding focus to the navigation so it can be navigated with a keyboard */
+
+
+/* Utilities */
+.spec-color {
+    color: rgb(10, 7, 22);
+}
+
+.spec-color2 {
+    color: rgb(199, 136, 42);
+}
+
+.indextext {
+    color: rgb(42, 199, 186);
+}
+
+.l-heading {
+    font-size: 3rem;
+}
+
+.m-heading {
+    font-size: 2rem;
+}
+
+.section-p {
+    padding: 5rem;
+    font-size: 2em;
+}
+
+.slide {
+    animation-duration: 0.5s;
+    animation-timing-function: linear; 
+    animation-delay: 0s; 
+    animation-iteration-count: 1; 
+    animation-name: slide; 
+}
+
+
+/* INDEX PAGE */
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 70rem;
+    text-align: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.container div:first-child {
+    padding-bottom: 2rem;
+}
+
+#home-services {
+    width: 70rem;
+    margin: 0 auto;
+}
+
+#home-services header {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+#home-services #section-1 {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    justify-content: center;
+}
+
+#home-services #section-1 i {
+    font-size: 3rem;
+    padding-bottom: 1.5rem;
+}
+
+#home-services #section-2 {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+#home-services #section-2 i {
+    font-size: 3rem;
+    padding-bottom: 1.5rem;
+}
+
+#home-services section div {
+    background: #ceac63;
+    border: 1px solid #ccc;
+    border-radius: 5%;
+    padding: 3rem;
+    margin: 1rem;
+    text-align: center;
+}
+
+/* Make a hover state of the whole box and a hove state on the Прочети повече */
+
+/* SERVICES */
+.services-main {
+    width: 70rem;
+    margin: 0 auto;
+    padding-top: 5rem;
+    text-align: center;
+}
+
+.services-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2rem;
+}
+
+.services-grid img {
+    width: 100%;
+    border-radius: 2.5%;
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.8); 
+}
+
+.services-grid img,
+.services-grid section {
+    margin: 5rem 0 2.5rem 0;
+}
+
+.services-grid section h3 {
+    margin-bottom: 1rem;
+}
+
+
+
+
+/* COMPENSATION */
+.compensations-main {
+    width: 70rem;
+    margin: 0 auto;
+    padding: 5rem 0;
+}
+
+.compensations-main p {
+    margin-bottom: 1rem;
+}
+
+.compensations-main h2 {
+    margin-top: 2rem;
+    text-align: center;
+}
+
+
+/* RATES */
+.rates-main {
+    width: 70rem;
+    margin: 0 auto;
+    padding: 5rem 0;
+}
+
+.rates-main > h2,
+.rates-main > p,
+.rates-main > article > h2,
+.rates-main > article > h3 {
+    text-align: center;
+}
+
+/* CONTACT */
+.contact-main {
+    display: flex;
+    width: 70rem;
+    height: 30vh;
+    align-items: center;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+
+
+
+
+/* FOOTER */
+
+.footer-nav {
+    display: flex;
+    justify-content: space-around;
+    height: 40vh;
+    align-items: baseline;
+    background: #E8664B;
+    padding-top: 2em;
+}
+
+.footer-nav ul {
+    display: flex;
+    border: 1px solid black;
+    padding-right: 2em;
+    width: 70em;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.footer-nav ul li {
+    list-style-type: none;
+}
+
+.footer-nav ul li a {
+    color: #000;
+    display: block;
+    text-decoration: none;
+    padding-left: 3rem;
+    font-size: 1.5em;
+}
+
+.footer-nav ul li a:hover {
+    color: rgb(90, 37, 24);
+}
+
+#underfooter {
+    background: #E8664B;
+    text-align: center;
+    color: rgb(32, 32, 32);
+}

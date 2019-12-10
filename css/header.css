@@ -1,0 +1,125 @@
+
+/* Hero Images */
+#index {
+    background: url('../img/index.jpg') no-repeat center center/cover;
+    height: var(--header-img-height, 80vh);
+    background-attachment: fixed;
+}
+
+#teams {
+    background: url('../img/teams.jpg') no-repeat center center/cover;
+    height: var(--header-img-height, 80vh);
+    background-attachment: fixed;
+}
+
+#standing {
+    background: url('../img/standing.jpg') no-repeat top center/cover;
+    height: var(--header-img-height, 80vh);
+    background-attachment: fixed;
+}
+
+
+/* #contacts {
+    background: url('../img/contacts-hero.JPEG') no-repeat center center/cover;
+    height: var(--header-img-height, 80vh);
+    background-attachment: fixed;
+} */
+
+
+/* Navigation */
+header .nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+
+}
+
+header .nav ul li {
+    padding: 2 1.5rem;
+    margin: 3rem 0.5rem;
+    
+}
+
+header .nav ul li a {
+    text-decoration: none;
+    display: block;
+    background: #E39A22(0,0,0,0.3);
+    padding: 0.5em 2.5em 0.5em 2.5em;
+    border-radius: 5px;
+    color: #000;
+    transition: 0.5s;
+}
+
+header .nav ul li a:hover {
+    color: black;
+    background:rgb(227, 34, 34); 
+}
+
+header .nav ul li .current {
+    color: #000;
+    background: rgb(227, 117, 43);
+}
+
+/* Dropdown menu */
+.dropbtn {
+    padding: 10px;
+    border: none;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #E39A22;
+    min-width: 50px;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 20px 10px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover { background-color: white; }
+.dropdown:hover .dropdown-content { display: block; }
+.dropdown:hover .dropbtn { background-color: rgb(227, 34, 34); }
+header .nav .dropdown li a:hover { background-color: rgb(227, 34, 34); }
+
+/* Hero Content */
+#index .showcase-content,
+#teams .showcase-content,
+#standing .showcase-content,
+#contacts .showcase-content {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: black;
+    height: 85%;
+    justify-content: center;
+}
+
+/* Image Size */
+#index .showcase-content img {
+    margin: 0 auto;
+    width: 200px;
+    padding-bottom: 2rem;
+}
+
+.author {
+    color: #5E64DB ;
+}
+
+.author a {
+    text-decoration: none;
+}
+
+.sitefooter {
+    color: #393D37 ;
+}
+
