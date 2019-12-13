@@ -100,7 +100,7 @@
     text-align: center;
 }
 
-/* Make a hover state of the whole box and a hove state on the Прочети повече */
+/* Make a hover state of the whole box and a hove state on the read more */
 
 /* SERVICES */
 .services-main {
@@ -197,6 +197,7 @@ transform: scale(1.1);
     align-items: center;
     margin: 0 auto;
     justify-content: space-between;
+    martgin
 }
 
 .bgcolor h2 {
@@ -210,7 +211,9 @@ padding-bottom: -20em;
 padding-left: 87em;
 }
 
-
+.bgcolor {
+    margin-bottom: 2em;
+}
 
 
 /* FOOTER */
@@ -267,7 +270,7 @@ footer ul {
 }
 
 footer .down {
-    height: 10vh;
+    height: 12vh;
     list-style: none;
     display: block;
     font-weight: 400;

@@ -138,7 +138,7 @@ header .nav .dropdown .current { background-color: rgb(227, 117, 43); }
     color: #393D37 ;
 }
 
-@media screen and (max-width:800px) {
+/* @media screen and (max-width:800px) {
     body {
         overflow-x: hidden;
     }
@@ -160,7 +160,7 @@ header .nav .dropdown .current { background-color: rgb(227, 117, 43); }
         display: block;
         padding: 20px;
     }
-}
+} */
 
 footer {
 	background-color: #000;
