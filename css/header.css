@@ -27,6 +27,17 @@
 
 
 /* Navigation */
+
+.logo{
+    line-height: 100px;
+    float: left;
+    text-transform: uppercase;
+    font-size: 2em;
+    font-family: inherit;
+    padding-top: 0.7em;
+    padding-left: 2em;
+  }
+
 header .nav ul {
     display: flex;
     list-style: none;
@@ -47,15 +58,18 @@ header .nav ul li a {
     padding: 0.5em 2.5em 0.5em 2.5em;
     border-radius: 5px;
     color: #000;
-    transition: 0.5s;
+    transition: 0.3s;
 }
 
 header .nav ul li a:hover {
     color: black;
+    transition: ease-in-out 1.2s;
     background:rgb(227, 34, 34); 
+    z-index: 25;
 }
 
-header .nav ul li .current {
+header .nav ul li .current,
+header .nav ul li .dropdown li .current {
     color: #000;
     background: rgb(227, 117, 43);
 }
@@ -88,8 +102,9 @@ header .nav ul li .current {
 
 .dropdown-content a:hover { background-color: white; }
 .dropdown:hover .dropdown-content { display: block; }
-.dropdown:hover .dropbtn { background-color: rgb(227, 34, 34); }
+.dropdown:hover .dropbtn { background-color: rgb(227, 34, 34); transition: ease-in-out 1.2s; }
 header .nav .dropdown li a:hover { background-color: rgb(227, 34, 34); }
+header .nav .dropdown .current { background-color: rgb(227, 117, 43); }
 
 /* Hero Content */
 #index .showcase-content,
@@ -123,3 +138,35 @@ header .nav .dropdown li a:hover { background-color: rgb(227, 34, 34); }
     color: #393D37 ;
 }
 
+@media screen and (max-width:800px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    .logo {
+        padding-left: 10em;
+    }
+    header .nav ul {
+        position: absolute;
+        right: 0;
+        height: 92vh;
+        top: 8vh;
+        background: #333;
+        display: block;
+    }
+
+
+    header .nav ul li a {
+        display: block;
+        padding: 20px;
+    }
+}
+
+footer {
+	background-color: #000;
+	color: #fff;
+}
+
+footer ul {
+	list-style: none;
+}
