@@ -1,0 +1,131 @@
+/**
+* root style
+*/
+:root, html, body {
+    background-color: #DDD;
+  }
+  
+  /**
+  ********************************************
+  * Grid layout
+  ********************************************
+  */
+  
+  /**
+  * grid container
+  */
+  #grid {
+    height: 100%;
+    display: grid;
+    grid-gap: 14px;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 64px auto;
+  }
+  /**
+  * grid sections
+  */
+  #header {
+    grid-column-start: 1;
+    grid-column-end: -1;
+  }
+
+  #board { 
+    background-color: inherit;
+    grid-column-start: 1;
+    grid-column-end: -1;
+    grid-row: 2;
+  }
+  
+  .content--page {
+    background-color: #DDD;
+    height: 100%;
+  }
+  
+  .a4 {
+    display: flex;
+    flex-flow: column wrap;
+    background: white;
+    // display: block;
+    margin: 0 auto;
+    box-shadow: @box_shadow_2dp;
+    -moz-box-shadow: @box_shadow_2dp;
+    -webkit-box-shadow: @box_shadow_2dp;
+  }
+  
+  .a4 > header {
+    flex: initial;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    margin: 1cm 1cm .4cm;
+    padding: 10px;
+  }
+  .a4 > section {
+    flex: auto;
+    margin: 0 1cm;
+    padding: 10px;
+    // border: 1px dashed #666666;
+  }
+  .a4 > footer {
+    flex: initial;
+    margin: .4cm 1cm 1cm;
+    padding: 10px;
+    border: 1px dashed #666666;
+  }
+  
+  .a4 {  
+    width: 21cm;
+    height: 29.7cm; 
+  }
+  
+  /**
+  *
+  * Grid table
+  *
+  */
+  .grid-table {
+    margin-bottom: 16px;
+    width: 100%;
+    overflow-x: auto;
+    z-index: 30;
+  }
+  
+  .grid-table__layout {
+    display: grid;
+    grid-gap: 2px 2px;
+    background-color: #666;
+    width: 100%;
+    // grid-template-columns: repeat(10, minmax(100px, 1fr));
+    grid-template-columns: 60px minmax(130px, 1fr) minmax(130px, 140px) repeat(auto-fit, minmax(60px, 70px));
+    grid-auto-rows: auto;
+  }
+  
+  .grid-table__header--style {
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: center;
+    min-height: 60px;
+    background-color: gray;
+    margin-bottom: 2px;
+  }
+
+  .juventus {
+      background-color: #ccc;
+  }
+  .grid-table__status--style {
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: center;
+    min-height: 60px;
+    background-color: white;
+    padding: 0 20px;}
+
+    .grid-table__status--style > img {
+      margin-right: auto;
+    }
+  
+  .src6 {
+    background-color: white;
+  }
