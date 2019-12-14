@@ -10,17 +10,7 @@
     color: rgb(199, 136, 42);
 }
 
-.indextext {
-    color: rgb(42, 199, 186);
-}
 
-.l-heading {
-    font-size: 3rem;
-}
-
-.m-heading {
-    font-size: 3rem;
-}
 
 .section-p {
     padding: 5rem;
@@ -46,10 +36,6 @@
     margin: 0 auto;
 }
 
-.bluepage,
-#section-2 {
-    background-color: rgb(127, 191, 216);
-}
 
 .showcase-content:nth-child(1) {
 
@@ -104,9 +90,6 @@
 
 /* SERVICES */
 
-.bgc {
-background-color: rgb(110, 163, 206);
-}
 
 .services-main {
     width: 70rem;
@@ -216,21 +199,6 @@ transform: scale(1.1);
     martgin
 }
 
-.bgcolor h2 {
-padding-left: 29em;
-padding-top: 5em;
-}
-
-.bgcolor p {
-padding-top: 5em;
-padding-bottom: -20em;
-padding-left: 57em;
-}
-
-.bgcolor {
-    margin-bottom: 2em;
-    margin-top: -0.4em;
-}
 
 
 /* FOOTER */
