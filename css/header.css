@@ -127,7 +127,8 @@ header .nav .dropdown .current { background-color: rgb(227, 117, 43); }
 }
 
 .author {
-    color: #5E64DB ;
+    color: rgb(73, 77, 189) ;
+    z-index: 50!important;
 }
 
 .author a {
@@ -135,7 +136,8 @@ header .nav .dropdown .current { background-color: rgb(227, 117, 43); }
 }
 
 .sitefooter {
-    color: #393D37 ;
+    color: rgb(142, 190, 118) ;
+    z-index: 2;
 }
 
 /* @media screen and (max-width:800px) {

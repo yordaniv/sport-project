@@ -243,12 +243,13 @@ li a:hover, .navBtn:active { text-decoration: none; color:#000; }
 
 footer {
 margin-top: -2em;
+height: 22vh;
 }
 
 .footer-nav {
     display: flex;
     justify-content: space-around;
-    height: 4vh;
+    height: 6vh;
     align-items: baseline;
     background: #E8664B;
     padding-top: 1em;
@@ -257,10 +258,10 @@ margin-top: -2em;
 
 .footer-nav ul {
     display: flex;
-    border: 1px solid black;
+    border: 2px solid black;
+    border-radius: 5em;
     padding-right: 2em;
     width: 70em;
-    height
     text-align: center;
     justify-content: space-around;
 }
@@ -327,7 +328,7 @@ text-decoration: none;
 
 
 #underfooter {
-    background: #E8664B;
+    background: rgba(201, 199, 198, 0.4);
     text-align: center;
     color: rgb(32, 32, 32);
 }

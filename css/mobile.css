@@ -42,10 +42,23 @@ label {
     
 }
 
-@media screen and ( max-width: 768px ){
+@media screen and ( max-width: 900px ){
 
     html {
         font: 10px/1.2 'Sanchez', serif;
+    }
+
+    footer {
+    height: 20vh;
+    }
+
+    footer .down {
+        height: 12vh;
+    }
+
+    .footer-nav ul {
+        padding-bottom: 1em;
+        padding-top: 1em;
     }
 
     #home-services section div {
@@ -135,3 +148,14 @@ label {
         padding-left: 35em;
     }
 }
+
+
+/* Footer mobile */
+@media screen and ( max-width: 900) {
+    footer .down {
+    height: 8vh;
+    }
+}
+
+
+ 
