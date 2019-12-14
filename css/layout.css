@@ -81,7 +81,7 @@
 
 #home-services #section-2 {
     display: grid;
-    grid-template-columns: repeat(2, auto);
+    grid-template-columns: repeat(3, auto);
     justify-content: center;
     margin-bottom: 2rem;
 }
@@ -103,6 +103,11 @@
 /* Make a hover state of the whole box and a hove state on the read more */
 
 /* SERVICES */
+
+.bgc {
+background-color: rgb(110, 163, 206);
+}
+
 .services-main {
     width: 70rem;
     margin: 0 auto;
@@ -174,9 +179,20 @@ transform: scale(1.1);
     color: #841436;
 }
 
+.colorl {
+    color: #5e291b;
+}
+
+.colorm {
+    color: #9fbfe9;
+}
+
+.colorc {
+    color: #043e8a;
+}
 /* RATES */
 .rates-main {
-    width: 90rem;
+    width: 70rem;
     margin: 0 auto;
     padding: 5rem 0;
 }
@@ -201,14 +217,14 @@ transform: scale(1.1);
 }
 
 .bgcolor h2 {
-padding-left: 48em;
+padding-left: 29em;
 padding-top: 5em;
 }
 
 .bgcolor p {
 padding-top: 5em;
 padding-bottom: -20em;
-padding-left: 87em;
+padding-left: 57em;
 }
 
 .bgcolor {
@@ -270,7 +286,7 @@ footer ul {
 }
 
 footer .down {
-    height: 12vh;
+    height: 14vh;
     list-style: none;
     display: block;
     font-weight: 400;
@@ -300,8 +316,12 @@ text-decoration: none;
     color: #c32aa3;
 }
 
-section:hover {
+.services-main section:hover {
     color: orange;
+}
+
+.basic-zoom:hover {
+    color: #d2f21d;
 }
 
 

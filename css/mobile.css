@@ -42,7 +42,22 @@ label {
     
 }
 
-@media ( max-width: 768px ){
+@media screen and ( max-width: 768px ){
+
+    html {
+        font: 10px/1.2 'Sanchez', serif;
+    }
+
+    #home-services section div {
+     margin: 0em;
+    }
+
+    #index .showcase-content, #teams .showcase-content, #standing .showcase-content, #contacts .showcase-content {
+        width: 100%;
+    }
+    .container {
+        width: auto;
+    }
 
     .container {
         display: flex;
@@ -55,22 +70,25 @@ label {
     #home-services {
         display: flex;
         flex-wrap: wrap;
+        width: 70vw;
     }
 
-    #section-1 {
+    #home-services #section-1 {
         display: flex;
         flex-wrap: wrap;
+        grid-column: auto;
+        
     }
 
-    #section-2 {
+    #home-services #section-2 {
         display: flex;
         flex-wrap: wrap;
+        grid-column: auto;
     }
 }
 
 
-@media screen ( max-width: 768px ) {
-
+@media (max-width: 768px) {
     .services-main {
         width: 100%;
     }
@@ -93,26 +111,27 @@ label {
         display: none;
     }
 
-    .services-grid {
-        grid-template-columns: 1fr;
+}
+
+@media (max-width: 768px) {
+    .compensations-main {
+        width: 100%;
+        margin: 0 1rem;
+    }
+
+    .compensations-main h2 {
+        width: 100%;
+        text-align: center;
     }
 }
 
-@media screen ( max-width: 600px ) {
-
-    .message {
-
+/* Contact Page */
+@media (max-width: 1100px) {
+    .bgcolor h2 {
+        padding-left: 15em;
     }
 
-    .bottom {
-
-    }
-
-    .right {
-
-    }
-
-    .left {
-        
+    .bgcolor p {
+        padding-left: 35em;
     }
 }
