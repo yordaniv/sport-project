@@ -42,6 +42,7 @@ header .nav ul {
     display: flex;
     list-style: none;
     justify-content: center;
+    font-size: 1.5em;
 
 }
 
@@ -63,7 +64,7 @@ header .nav ul li a {
 
 header .nav ul li a:hover {
     color: black;
-    transition: ease-in-out 1.2s;
+    transition: ease-in-out 0.5s;
     background:rgb(227, 34, 34); 
     z-index: 25;
 }
@@ -102,7 +103,7 @@ header .nav ul li .dropdown li .current {
 
 .dropdown-content a:hover { background-color: white; }
 .dropdown:hover .dropdown-content { display: block; }
-.dropdown:hover .dropbtn { background-color: rgb(227, 34, 34); transition: ease-in-out 1.2s; }
+.dropdown:hover .dropbtn { background-color: rgb(227, 34, 34); transition: ease-in-out 0.5s; }
 header .nav .dropdown li a:hover { background-color: rgb(227, 34, 34); }
 header .nav .dropdown .current { background-color: rgb(227, 117, 43); }
 

@@ -10,12 +10,55 @@
     color: rgb(199, 136, 42);
 }
 
+.bgcolor {
+    margin-bottom: 2em;
+    margin-top: -0.4em;
+}
 
+
+.bgcolor h2 {
+    padding-left: 38em;
+    padding-top: 5em;
+}
+
+#board {
+    margin-bottom: 2em;
+}
+
+
+.bgcolor p {
+    padding-top: 5em;
+    padding-bottom: -20em;
+    padding-left: 69em;
+    }
 
 .section-p {
     padding: 5rem;
     font-size: 2em;
 }
+
+.bluepage,
+#section-2 {
+    background-color: rgb(42, 199, 186);
+}
+
+.indextext {
+    color: rgb(42, 199, 186);
+}
+
+.bgc {
+    background-color: rgb(42, 199, 186);
+}
+
+.l-heading {
+    font-size: 3em;
+    color: rgb(134, 211, 211);
+}
+
+.m-heading {
+    font-size: 3em;
+}
+
 
 .slide {
     animation-duration: 2s;
