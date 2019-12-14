@@ -193,7 +193,7 @@ transition: all 1.6s ease-in-out;
 z-index: 55;
 }
 
-.services-grid:hover img {
+.services-grid:hover img, {
 transform: scale(1.1);
 }
 

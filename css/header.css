@@ -170,6 +170,11 @@ footer {
 	color: #fff;
 }
 
+.down span:hover {
+    color:white
+}
+
+
 footer ul {
 	list-style: none;
 }

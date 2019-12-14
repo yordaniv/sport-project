@@ -23,3 +23,68 @@
 .basic-zoom:hover {
     transform: scale(1.2);
 }
+
+
+ 
+.down span .fab {
+  color: #d8e2dc;
+  line-height: 65px;
+  font-size: 24px;
+  transition: all 0.5s ease;
+}
+ 
+
+/*facebook*/
+.down span:hover.facebook {
+  border-radius: 0.2em;
+}
+ 
+.down span:hover .fa-facebook,
+.down span.facebook:hover:before {
+  color: #3b5998;
+  text-shadow: 0 0 15px #3b5998;
+}
+ 
+/*twitter*/
+.down span:hover.twitter {
+  border-radius: 0.2em;
+}
+ 
+.down span:hover .fa-twitter,
+.down span.twitter:hover:before {
+  color: #00aced;
+  text-shadow: 0 0 15px #00aced;
+}
+ 
+/* instagram */
+.down span:hover.instagram {
+  border-radius: 0.2em;
+}
+ 
+.down span:hover .fa-instagram,
+.down span.instagram:hover:before {
+  color: #bc2a8d;
+  text-shadow: 0 0 15px #bc2a8d;
+}
+
+/* pinterest */
+.down span:hover.pinterest {
+  border-radius: 0.2em;
+}
+ 
+.down span:hover .fa-pinterest,
+.down span.pinterest:hover:before {
+  color: #bc2f2a;
+  text-shadow: 0 0 15px #bc2f2a;
+}
+ 
+ 
+/* media queries */
+@media screen and (max-width: 580px) {
+  .wrapper {
+    width: 150px;
+  }
+  .wrapper ul li {
+    margin-bottom: 35px;
+  }
+}
